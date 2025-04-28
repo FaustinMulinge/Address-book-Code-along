@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Visited places</title>
+        <link rel="stylesheet" href="./index.css">
+        <script src="./index.js" defer></script>
+    </head>
+    <body class="body">
+        <h1>Address Book Application</h1>
+        <h2>Add your contact details</h2>
+        <section class="address-section">
+            <form id="addressForm">
+                <label for="new-first-name">First Name</label>
+                <input type="text" id="new-first-name" name="new-first-name" required>
+
+                <label for="new-last-name">Last Name</label>
+                <input type="text" id="new-last-name" name="new-last-name" required>
+
+                <label for="new-phone-number">Phone Number</label>
+                <input type="tel" id="new-phone-number" name="new-phone-number" required>
+
+                <label for="new-email">Email</label>
+                <input type="email" id="new-email" name="new-email" required>
+
+                <button type="submit">Add contact</button>
+            </form>
+            <ul id="contactList"></ul>
+        </section>
+        <h1>To Do List</h1>
+        <section class="task-section">
+            <form id="taskForm">
+                <input type="text" id="task-input"  placeholder="Enter a task" required>
+                <button type="submit">Add task</button>
+            </form>
+            <ul id="taskList"></ul>
+        </section>
+    </body>
+</html>    
